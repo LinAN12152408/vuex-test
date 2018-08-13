@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    vuex 小例子
+    <h1>vuex 小例子</h1>
     <!-- <img src="./assets/logo.png"> -->
     <!-- <router-view/> -->
+    <vuex-dom></vuex-dom>
   </div>
 </template>
 
 <script>
+import VuexDom from '@/view/vuex-dom'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    VuexDom
+  }
 }
 </script>
 
